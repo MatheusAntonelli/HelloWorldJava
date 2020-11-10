@@ -1,2 +1,2 @@
 # HelloWorldJava
-Initial Java program 
+Initial Java code concepts
