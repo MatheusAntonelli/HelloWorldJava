@@ -6,29 +6,26 @@ public class EmployeeData {
     public double tax;
     public double percentage;
 
-    public double netSalary(){
+    public double netSalary() {
         return grossSalary - tax;
     }
     public double increaseSalary(){
         return grossSalary * this.percentage / 100;
     }
     public double finalSalary(){
-        return netSalary() + increaseSalary();
+        return  netSalary() + increaseSalary();
     }
+
     public String firstInfo(){
         return "Name: "
-                +employeeName
-                +" Gross Salary; $ "
-                +String.format("%.2F",grossSalary)
+                + employeeName
+                +" Gross Salary: $ " + String.format("%.2f",grossSalary)
                 +" Tax: "
-                +tax
-                +" Salary: "
-                +String.format("%.2f", netSalary());
+                +tax +
+                " Salary: $ " + String.format("%.2f",netSalary());
     }
     public String updatedInfo(){
-        return "Updated Info: "
-                + employeeName
-                + " , $ "
-                + String.format("%.2f", finalSalary());
+        return "Updated info: " + employeeName + " , $ "
+                + String.format("%.2f",finalSalary());
     }
 }
