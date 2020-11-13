@@ -20,6 +20,6 @@ public class IOFCalc {
 
     public String toString(){
         //You can format and use %.2f to show two decimals in the result
-        return "Amount to be paid in reais = R$: " + pricePayed();
+        return "Amount to be paid in reais = R$: " + pricePayed() + " The IOF is 6%";
     }
 }
