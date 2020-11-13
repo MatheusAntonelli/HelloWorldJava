@@ -1,4 +1,4 @@
-package entities;
+package util;
 
 //This is a class for IntegerSum in src/codes
 

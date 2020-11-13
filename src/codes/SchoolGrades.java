@@ -1,6 +1,6 @@
 package codes;
 
-import entities.GradesFunction;
+import util.GradesFunction;
 
 import java.util.Scanner;
 

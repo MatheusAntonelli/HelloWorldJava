@@ -1,6 +1,6 @@
 package codes;
 
-import entities.EmployeeData;
+import util.EmployeeData;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
 package codes;
 
-import entities.Sum;
+import util.Sum;
 
 import java.util.Scanner;
 

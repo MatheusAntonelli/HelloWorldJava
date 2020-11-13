@@ -1,6 +1,6 @@
 package codes;
 
-import entities.TriangleMath;
+import util.TriangleMath;
 
 import java.util.Scanner;
 

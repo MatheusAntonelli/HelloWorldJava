@@ -1,6 +1,6 @@
 package codes;
 
-import entities.Products;
+import util.Products;
 
 import java.util.Scanner;
 

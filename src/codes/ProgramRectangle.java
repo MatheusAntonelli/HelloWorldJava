@@ -1,6 +1,6 @@
 package codes;
 
-import entities.Rectangle;
+import util.Rectangle;
 
 import java.util.Scanner;
 

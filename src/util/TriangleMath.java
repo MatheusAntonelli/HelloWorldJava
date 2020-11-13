@@ -1,4 +1,4 @@
-package entities;
+package util;
 
 public class TriangleMath {
     public double A,B,C;
