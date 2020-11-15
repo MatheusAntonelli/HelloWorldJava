@@ -1,5 +1,5 @@
-package codes;
-  
+package SingleCodes;
+
 import java.util.Scanner;
 class VowelOrNot{
     public static void main(String[ ] arg)    {
