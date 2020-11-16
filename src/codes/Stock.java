@@ -18,6 +18,7 @@ public class Stock {
 
         Products product = new Products(name,price);
 
+
         System.out.println("Product data: " + product);
 
         System.out.println();
