@@ -33,7 +33,7 @@ public class BankCreateAccount {
         this.secondDeposit += balance;
     }
     public void removeBalance(double balance){
-        this.secondDeposit -= balance - 5;
+        this.secondDeposit = this.secondDeposit - balance - 5;
     }
 
 
