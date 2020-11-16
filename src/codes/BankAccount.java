@@ -31,7 +31,7 @@ public class BankAccount {
         System.out.println();
 
 
-        System.out.print("Add money?\nU$: ");
+        System.out.print("Enter a deposit value\nU$: ");
         double addMoney = sc.nextDouble();
         holderOne.addBalance(addMoney);
         System.out.println(holderOne);
