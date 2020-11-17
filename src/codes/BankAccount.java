@@ -43,5 +43,6 @@ public class BankAccount {
         System.out.println("Money Withdraw sucesfully!");
 
         System.out.println(holderOne);
+        sc.close();
     }
 }
