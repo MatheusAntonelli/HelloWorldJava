@@ -7,6 +7,7 @@ public class Products {
 
 
 
+
     public Products(String name, double price, int quantity){
         this.name = name;
         this.price = price;
