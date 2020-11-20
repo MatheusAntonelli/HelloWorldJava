@@ -1,3 +1,7 @@
+/*
+
+This class uses Switch cases to check if the character entered is consonant or vowel
+ */
 package SingleCodes;
 
 import java.util.Scanner;

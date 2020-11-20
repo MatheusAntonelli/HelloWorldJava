@@ -1,3 +1,8 @@
+/*
+In this class I read the necessary information
+for the EployeeData class to be able to return
+ the employee's final salary.
+ */
 package codes;
 
 import util.EmployeeData;

@@ -1,3 +1,6 @@
+/*
+    Read IOFCalc for more info!
+ */
 package codes;
 
 import util.IOFCalc;

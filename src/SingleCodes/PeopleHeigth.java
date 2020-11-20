@@ -1,3 +1,9 @@
+/*
+
+This is a simple class in java that consists of reading the variable n
+to estimate the number of reading of the height of people or any object
+ and then makes an average.
+ */
 package SingleCodes;
 
 import java.util.Scanner;

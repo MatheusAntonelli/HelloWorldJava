@@ -1,4 +1,7 @@
 package util;
+/*
+Here are the getters and setters of Stock.Java.
+ */
 
 public class Products {
     private String name;
@@ -46,7 +49,7 @@ public class Products {
     public void removeProducts(int quantity){
         this.quantity -= quantity;
     }
-
+    //If you use the toString method you can just call the product name in a Print and receive that information!
     public String toString(){
         return name
                 + ", $ "

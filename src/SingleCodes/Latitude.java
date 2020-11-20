@@ -1,3 +1,6 @@
+/*
+
+ */
 package SingleCodes;
 
 import java.util.Scanner;

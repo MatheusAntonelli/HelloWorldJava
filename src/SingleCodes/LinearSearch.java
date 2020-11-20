@@ -3,9 +3,9 @@ package SingleCodes;
 import java.util.Scanner;
 
 /*
-Program: Linear Search Example
-Input: NUmber of elements, element's, value to be searched
-Output: Position of the number input by user among other number
+Program: Linear Search Example.
+Input: Number of elements, element's, value to be searched.
+Output: Position of the number input by user among other number.
  */
 public class LinearSearch {
 
@@ -20,7 +20,7 @@ public class LinearSearch {
         array = new int[num];
         System.out.print("Enter " + num + " Integers");
 
-        //Loop to store each numbers in array
+        //Loop to store each numbers in array.
         for (counter = 0; counter< num; counter++)
             array[counter] = sc.nextInt();
 
@@ -32,7 +32,7 @@ public class LinearSearch {
                 System.out.println(item + " is present at location " + (counter + 1));
                 /*
                 Item is found so stop the search and to come out of the lop
-                use break statement
+                use break statement.
                  */
                 break;
             }

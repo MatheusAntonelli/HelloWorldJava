@@ -1,3 +1,7 @@
+/*
+    Here I receive all the data necessary to make the area calcs
+    Check TriangleMath.Java on Util.
+ */
 package codes;
 
 import util.TriangleMath;

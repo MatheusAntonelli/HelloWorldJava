@@ -1,3 +1,7 @@
+/*
+Tax calculator for buying dollar in brazil.
+OBS: you can use an API to get an updated price of the currency exchange.
+ */
 package util;
 
 public class IOFCalc {

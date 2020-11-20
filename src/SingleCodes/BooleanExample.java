@@ -1,3 +1,7 @@
+/*
+This class is a simple example of Boolean,
+ to open or close doors and reach the goal that are three doors open.
+ */
 package SingleCodes;
 
 public class BooleanExample {

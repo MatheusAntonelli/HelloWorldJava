@@ -1,3 +1,8 @@
+/*
+
+This would be the object of the PriceAvg class
+with the product setters and getters to be read in PriceAvg
+ */
 package util;
 
 public class ProductAvg {

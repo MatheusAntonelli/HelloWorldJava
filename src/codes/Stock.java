@@ -1,3 +1,7 @@
+/*
+This is a simple inventory system where we can add and remove a product
+ using the Products.java class.
+ */
 package codes;
 
 import util.Products;

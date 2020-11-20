@@ -1,3 +1,8 @@
+/*
+    That class returns me the area of a triangle
+     for the class Triangle on Codes..
+
+ */
 package util;
 
 public class TriangleMath {

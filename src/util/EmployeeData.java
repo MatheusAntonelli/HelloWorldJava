@@ -1,3 +1,7 @@
+/*
+This class contains mathematical operations to determine how a given employee's salary will be.
+Check Employee.java
+ */
 package util;
 
 public class EmployeeData {

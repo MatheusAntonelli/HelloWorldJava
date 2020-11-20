@@ -1,3 +1,6 @@
+/*
+    Check BankAccount.java for more info.
+ */
 package util;
 
 public class BankCreateAccount {

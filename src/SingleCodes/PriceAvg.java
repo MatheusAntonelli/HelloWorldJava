@@ -1,7 +1,11 @@
+/*
+   This class takes the value of variable n
+   and then uses the ProductAvg class to read the name and price of the products
+   and perform an average
+ */
 package SingleCodes;
 
 import util.ProductAvg;
-import util.Products;
 
 import java.util.Scanner;
 
@@ -15,7 +19,7 @@ public class PriceAvg {
 
         ProductAvg[] vect = new ProductAvg[n];
 
-        for (int i = 0; i<n; i++){
+        for (int i = 0; i < vect.length; i++){
             sc.nextLine();
             System.out.print("Product name: ");
             String name = sc.nextLine();
@@ -25,10 +29,10 @@ public class PriceAvg {
         }
         double sum = 0.0;
 
-        for (int i = 0; i<n; i++){
+        for (int i = 0; i < vect.length; i++){
             sum += vect[i].getPrice();
         }
-        double avg = sum / n;
+        double avg = sum / vect.length;
 
         System.out.printf("Average price = %.2f", avg);
         sc.close();

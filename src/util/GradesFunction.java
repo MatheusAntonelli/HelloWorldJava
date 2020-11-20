@@ -1,3 +1,7 @@
+/*
+This is a school grade program that makes an average
+of three test to see if the student pass or not.
+ */
 package util;
 
 public class GradesFunction {

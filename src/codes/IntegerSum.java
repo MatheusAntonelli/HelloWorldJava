@@ -1,3 +1,8 @@
+/*
+    This is a simple class that makes a simple sum with two Integers
+    In that class I just Recieve the data and show the result
+    Check Sum.java on Util Package.
+ */
 package codes;
 
 import util.Sum;

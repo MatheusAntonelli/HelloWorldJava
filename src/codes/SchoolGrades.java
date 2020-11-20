@@ -1,3 +1,6 @@
+/*
+Here we collect the data of the tests
+ */
 package codes;
 
 import util.GradesFunction;

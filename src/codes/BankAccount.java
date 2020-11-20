@@ -1,3 +1,7 @@
+/*
+ This is a simple code for simulate opening a bank account
+ Make deposits and take money.
+ */
 package codes;
 
 import util.BankCreateAccount;

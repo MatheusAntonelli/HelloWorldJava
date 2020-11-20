@@ -1,3 +1,7 @@
+/*
+    Here you get the Width and the Heigth of the rectangle
+     for Rectangle.java return the results on X using(toString).
+ */
 package codes;
 
 import util.Rectangle;
@@ -9,7 +13,7 @@ public class ProgramRectangle {
         Scanner sc = new Scanner(System.in);
 
         Rectangle x = new Rectangle();
-        System.out.println("Enter width and HEigth of the rectangle: ");
+        System.out.println("Enter width and Heigth of the rectangle: ");
         System.out.print("Width: ");
         x.width = sc.nextDouble();
 

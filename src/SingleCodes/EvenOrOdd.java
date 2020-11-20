@@ -14,8 +14,8 @@ public class EvenOrOdd {
         num = sc.nextInt();
 
         /*
-        If number is Divisible by 2 then it's an even(NumerdoorCount++;o Par),
-        se não é um numero impar
+        If number is Divisible by 2 then it's an even,
+        else is an odd number.
          */
         if (num % 2 == 0){
             System.out.println("Entered number is even");
