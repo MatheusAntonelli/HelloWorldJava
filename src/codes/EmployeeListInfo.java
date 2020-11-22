@@ -18,14 +18,20 @@ public class EmployeeListInfo {
         Scanner sc = new Scanner(System.in);
 
         List<EmployeeList> list = new ArrayList<>();
-        System.out.println("How many employees will be registered? ");
+        System.out.print("How many employees will be registered? ");
         int N = sc.nextInt();
 
         for (int i = 0; i<N; i++){
             System.out.println();
             System.out.println("Employee #" + (i+1)+ ":");
             System.out.print("ID: ");
-            Integer id = sc.nextInt();
+            int id = sc.nextInt();
+
+            while (hasId(list,id)){
+                System.out.print("ID already registered! Try again: ");
+                id = sc.nextInt();
+            }
+
             System.out.print("Name: ");
             sc.nextLine();
             String name = sc.nextLine();
@@ -40,7 +46,8 @@ public class EmployeeListInfo {
         int searchedId = sc.nextInt();
         EmployeeList emp = list.stream().filter(x-> x.getId() == searchedId).findFirst().orElse(null);
 
-        //Integer pos = position(list,searchedId);
+        //Integer pos = position(list,searchedId);]
+
         if (emp == null){
             System.out.println("This id Doesn't exist!");
         }else {
@@ -64,6 +71,9 @@ public class EmployeeListInfo {
         }
         return null;
     }
-
+    public static boolean hasId(List<EmployeeList> list, int id) {
+        EmployeeList emp = list.stream().filter(x -> x.getId() == id).findFirst().orElse(null);
+        return emp != null;
+    }
 
 }
